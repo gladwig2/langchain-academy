@@ -15,7 +15,8 @@ graphs that we will explore using the LangGraph API and Studio.
 
 To get the most out of this course, please ensure you're using Python 3.11 or later. 
 This version is required for optimal compatibility with LangGraph. If you're on an older version, 
-upgrading will ensure everything runs smoothly.
+upgrading will ensure everything runs smoothly. Many people use [pyenv](https://github.com/pyenv/pyenv) to
+manage their python version.
 ```
 python3 --version
 ```
@@ -42,14 +43,14 @@ PS> pip install -r requirements.txt
 ```
 
 ### Running notebooks
-If you don't have Jupyter set up, follow installation instructions [here](https://jupyter.org/install).
+Jupyter notebook should now be installed.
+If not, follow installation instructions [here](https://jupyter.org/install).
 ```
 $ jupyter notebook
 ```
 
 ### Setting up env variables
-Briefly going over how to set up environment variables. You can also 
-use a `.env` file with `python-dotenv` library.
+The course runs most smoothly if you set API keys in your shell.
 #### Mac/Linux/WSL
 ```
 $ export API_ENV_VAR="your-api-key-here"

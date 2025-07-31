@@ -1,6 +1,4 @@
-langgraph
-langchain-core
-langchain-community
-langchain-openai
-tavily-python
-wikipedia
+langgraph==0.6.1
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain-openai==0.3.28

@@ -1,6 +1,6 @@
-langgraph
-langgraph-prebuilt
-langchain-core
-langchain-community
-langchain-openai
+langgraph==0.6.1
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain-openai==0.3.28
+langgraph-prebuilt==0.6.1
 
